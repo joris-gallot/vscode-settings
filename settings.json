@@ -1,0 +1,38 @@
+{
+  "window": {
+    "zoomLevel": 0.5,
+    "systemColorTheme": "auto",
+    "autoDetectColorScheme": true
+  },
+  "editor": {
+    "stickyScroll": {
+      "enabled": true
+    },
+    "tabSize": 2,
+    "fontSize": 14,
+    "fontFamily": "Monaspace Neon"
+  },
+  "workbench": {
+    "preferredLightColorTheme": "GitHub Light",
+    "preferredDarkColorTheme": "GitHub Dark",
+    "sideBar": {
+      "location": "right"
+    },
+    "panel": {
+      "defaultLocation": "right"
+    },
+    "iconTheme": "material-icon-theme"
+  },
+  "github": {
+    "copilot": {
+      "nextEditSuggestions": {
+        "enabled": true
+      }
+    }
+  },
+  "git": {
+    "useForcePushWithLease": true,
+    "allowForcePush": true,
+    "useForcePushIfIncludes": true
+  },
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.terminal.focus",
+    "when": "terminalIsOpen || terminalHasBeenCreated || true"
+  },
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.terminal.new",
+    "when": "!terminalIsOpen && !terminalHasBeenCreated"
+  },
+  {
+    "key": "cmd+i",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "-workbench.action.search.toggleQueryDetails"
+  },
+  {
+    "key": "cmd+shift+i",
+    "command": "workbench.panel.chat.view.copilot.toggleVisibility",
+  },
+  {
+    "key": "cmd+shift+i",
+    "command": "-workbench.action.chat.openagent",
+  },
+  {
+    "key": "cmd+shift+k",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "cmd+shift+k",
+    "command": "-editor.action.deleteLines"
+  },
+  {
+    "key": "cmd+u",
+    "command": "git.pull"
+  },
+  {
+    "key": "cmd+y",
+    "command": "git.push"
+  },
+  {
+    "key": "cmd+shift+y",
+    "command": "git.pushForce"
+  }
+]
