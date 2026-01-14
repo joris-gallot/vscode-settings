@@ -36,5 +36,10 @@
     "useForcePushIfIncludes": true,
     "autofetch": true,
     "enableSmartCommit": true
+  },
+  "terminal": {
+    "integrated": {
+      "fontSize": 14
+    }
   }
 }
