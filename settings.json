@@ -33,6 +33,7 @@
   "git": {
     "useForcePushWithLease": true,
     "allowForcePush": true,
-    "useForcePushIfIncludes": true
+    "useForcePushIfIncludes": true,
+    "autofetch": true
   },
 }
