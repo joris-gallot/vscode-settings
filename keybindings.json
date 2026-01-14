@@ -23,11 +23,12 @@
   },
   {
     "key": "cmd+shift+i",
-    "command": "workbench.panel.chat.view.copilot.toggleVisibility",
+    "command": "workbench.action.chat.openagent",
   },
   {
     "key": "cmd+shift+i",
-    "command": "-workbench.action.chat.openagent",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "inChat"
   },
   {
     "key": "cmd+shift+k",
