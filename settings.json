@@ -35,7 +35,8 @@
     "allowForcePush": true,
     "useForcePushIfIncludes": true,
     "autofetch": true,
-    "enableSmartCommit": true
+    "enableSmartCommit": true,
+    "confirmForcePush": false
   },
   "terminal": {
     "integrated": {
