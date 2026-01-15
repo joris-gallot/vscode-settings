@@ -8,6 +8,7 @@
     "stickyScroll": {
       "enabled": true
     },
+    "formatOnSave": true,
     "tabSize": 2,
     "fontSize": 14,
     "fontFamily": "Monaspace Neon"
