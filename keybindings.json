@@ -60,4 +60,12 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
+  {
+    "key": "cmd+shift+u",
+    "command": "editor.action.rename"
+  },
+  {
+    "key": "cmd+shift+u",
+    "command": "-workbench.action.output.toggleOutput"
+  }
 ]
