@@ -11,7 +11,12 @@
     "formatOnSave": true,
     "tabSize": 2,
     "fontSize": 14,
-    "fontFamily": "Monaspace Neon"
+    "fontFamily": "Monaspace Neon",
+    "codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.formatDocument": "never",
+      "source.organizeImports": "never",
+    }
   },
   "workbench": {
     "preferredLightColorTheme": "GitHub Light",
@@ -38,6 +43,10 @@
     "autofetch": true,
     "enableSmartCommit": true,
     "confirmForcePush": false
+  },
+  "explorer": {
+    "confirmDelete": false,
+    "confirmDragAndDrop": false
   },
   "terminal": {
     "integrated": {
