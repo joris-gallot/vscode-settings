@@ -67,5 +67,16 @@
   {
     "key": "cmd+shift+u",
     "command": "-workbench.action.output.toggleOutput"
-  }
+  },
+  // Ensure that tab button works in vim
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
 ]
